@@ -1,13 +1,19 @@
-Título: Sistema de Busca Semântica com IA e FAISS.
+# 🔍 Sistema de Busca Semântica com IA e FAISS
 
-O que faz: Um motor de busca que entende o contexto das perguntas. Se o usuário pergunta sobre "Python", o sistema encontra a explicação técnica mesmo que o texto seja longo e complexo.
+Este projeto implementa um motor de busca inteligente que compreende o **contexto** das perguntas, indo além da simples busca por palavras-chave. Se um usuário questionar sobre "Python", o sistema localiza a explicação técnica mais relevante, mesmo em textos extensos e complexos.
 
-Tecnologias: Python, FAISS, Sentence-Transformers, NumPy.
+## 🛠️ Tecnologias Utilizadas
 
-Destaque Técnico: Implementação de um banco de dados vetorial para busca de similaridade em tempo real.
+* **Python**: Linguagem principal.
+* **FAISS (Facebook AI Similarity Search)**: Biblioteca para busca eficiente em grandes conjuntos de vetores.
+* **Sentence-Transformers**: Modelos de Deep Learning para converter texto em embeddings.
+* **NumPy**: Processamento de matrizes e vetores.
 
-"Durante o desenvolvimento, precisei ajustar a tipagem dos vetores para float32 para garantir a compatibilidade com o índice L2 do FAISS." (Isso mostra que você entende o que está fazendo, e não apenas copiou e colou).
+## 💡 Destaque Técnico
 
+> "Durante o desenvolvimento, implementei a conversão de dados para a tipagem `float32`, garantindo compatibilidade total com o índice **L2 do FAISS**. Isso assegura precisão matemática na busca por similaridade de vetores."
+
+---
 ## 🚀 Como Executar o Projeto
 
 1. Instale as dependências:
